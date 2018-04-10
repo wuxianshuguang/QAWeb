@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873172e7-015f-4497-9014-11bf910af946" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nowcoder.InitDatabaseTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nowcoder.WendaApplicationTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.nowcoder.InitDatabaseTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.nowcoder.WendaApplicationTests.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/QAWeb/service/SensitiveService.java" afterPath="$PROJECT_DIR$/src/main/java/com/QAWeb/service/SensitiveService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +51,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="18" column="77" lean-forward="true" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+            <state relative-caret-position="111">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,8 +64,8 @@
       <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2874">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="553" column="1" lean-forward="false" selection-start-line="553" selection-start-column="1" selection-end-line="553" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -116,17 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text-right</find>
-      <find>text-muted</find>
-      <find>clearfix</find>
-      <find>hide-text</find>
-      <find>ellipsis</find>
-      <find>fadeInUp</find>
-      <find>zg-btn-blue</find>
-      <find>zg-btn</find>
-      <find>zg-unfollow</find>
-      <find>small</find>
-      <find>btn-pending</find>
       <find>@media</find>
       <find>index-header</find>
       <find>mutiview</find>
@@ -144,8 +120,19 @@
       <find>popover</find>
       <find>sprite-index</find>
       <find>captcha</find>
+      <find>org-tip</find>
+      <find>view</find>
       <find>sign-flow</find>
+      <find>main</find>
+      <find>-body</find>
       <find>QRCode</find>
+      <find>particles</find>
+      <find>topic-list-for-spider</find>
+      <find>GaussianBlur</find>
+      <find>Captcha-prompt</find>
+      <find>Captcha</find>
+      <find>dialog-org-tip</find>
+      <find>footer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -887,12 +874,12 @@
       <workItem from="1523116724935" duration="1352000" />
       <workItem from="1523178338094" duration="4000" />
       <workItem from="1523284630578" duration="4842000" />
-      <workItem from="1523373520733" duration="4065000" />
+      <workItem from="1523373520733" duration="5275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11381000" />
+    <option name="totallyTimeSpent" value="12591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1259,14 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1294,10 +1273,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="18" column="77" lean-forward="true" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        <state relative-caret-position="111">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1307,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2874">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="351">
+          <caret line="553" column="1" lean-forward="false" selection-start-line="553" selection-start-column="1" selection-end-line="553" selection-end-column="1" />
           <folding />
         </state>
       </provider>
