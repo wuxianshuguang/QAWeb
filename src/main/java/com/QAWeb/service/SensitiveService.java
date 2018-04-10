@@ -181,7 +181,7 @@ public class SensitiveService implements InitializingBean {
         }
     }
 
-    public static void main(String[] argv) {
+    public static void _main(String[] argv) {
         SensitiveService s = new SensitiveService();
         s.addWord("色情");
         s.addWord("好色");
