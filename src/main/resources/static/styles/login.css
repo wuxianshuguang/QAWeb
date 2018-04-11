@@ -3,10 +3,10 @@ html,body {
 }
 
 body {
-    color: #555;
+    color: #55540d;
     font-size: 15px;
     line-height: 1.7;
-    background: #f7fafc;
+    background: #d3dcfc;
 }
 
 body,h1,h2,h3,h4,h5,p,ul,ol,li {
@@ -15,10 +15,6 @@ body,h1,h2,h3,h4,h5,p,ul,ol,li {
 }
 a,a:hover {
     text-decoration: none
-}
-
-img {
-    border: 0
 }
 
 object:not([data]) {
@@ -275,7 +271,7 @@ object:not([data]) {
 }
 
 .signin-div .sign-btn {
-    background: #00BC9B;
+    background: #00a6bc;
     box-shadow: none;
     border: 0;
     border-radius: 3px;
@@ -284,21 +280,24 @@ object:not([data]) {
 }
 
 .signin-div .sign-btn:focus,html.no-touchevents .signin-div .sign-btn:hover {
-    background: #00B091
+    background: #00b0ab
 }
 
 .header {
     text-align: center
 }
 
-.header .logo {
+.header .logo-wrapper {
     margin: 0 auto;
     width: 47px;
     height: 47px;
-    background: url(../imagse/log.png) no-repeat;
+    background: url(../images/log.png) no-repeat;
     background-size: contain
 }
-
+.logo {
+    margin-left:-25px;
+    border: 0;
+}
 .header .description {
     margin: 30px 0 20px;
     font-weight: 400;
@@ -306,23 +305,10 @@ object:not([data]) {
     line-height: 1
 }
 
-/*@media (max-width :740px) {*/
-    /*.header .logo {*/
-        /*width: 96px;*/
-        /*height: 44.4px*/
-    /*}*/
-/*}*/
-
 .main {
     min-height: 100%;
     margin-bottom: -42px
 }
-
-/*@media (max-width :740px) {*/
-    /*.main {*/
-        /*margin-bottom: -102px*/
-    /*}*/
-/*}*/
 
 .inner {
     margin: auto;
