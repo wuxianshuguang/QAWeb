@@ -43,7 +43,7 @@ object:not([data]) {
     clear: both
 }
 
-.signin-div .view {
+.signin-div .signin-inner {
     display: none;
     float: right;
     width: 202px;
@@ -51,27 +51,27 @@ object:not([data]) {
     font-size: 14px
 }
 
-.signin-div .view a:hover {
+.signin-div .signin-inner a:hover {
     text-decoration: none
 }
 
-.signin-div .view.selected {
+.signin-div .signin-inner.selected {
     display: block
 }
 
-.signin-div .view .signin-switch {
+.signin-div .signin-inner .signin-switch {
     float: right
 }
 
-.signin-div .view .input-wrapper,.signin-div .view .button-wrapper,.signin-div .view .signin-misc-wrapper,.signin-div .view .weibo-signup-wrapper {
+.signin-div .signin-inner .input-wrapper,.signin-div .signin-inner .button-wrapper,.signin-div .signin-inner .signin-helper,.signin-div .signin-inner .weibo-signup-wrapper {
     margin-top: 18px
 }
 
-.signin-div .view .input-wrapper {
+.signin-div .signin-inner .input-wrapper {
     position: relative
 }
 
-.signin-div .view .input-wrapper input {
+.signin-div .signin-inner .input-wrapper input {
     margin: 0;
     padding: 8px 10px;
     width: 180px;
@@ -83,35 +83,35 @@ object:not([data]) {
     box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15)
 }
 
-.signin-div .view .input-wrapper input:focus {
+.signin-div .signin-inner .input-wrapper input:focus {
     background: #fff;
     outline: 0;
     box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 0 10px rgba(255,255,255,.3);
     border: 1px solid #197CC9
 }
 
-.signin-div .view .input-wrapper input.first,.signin-div .view .input-wrapper input.last {
+.signin-div .signin-inner .input-wrapper input.first,.signin-div .signin-inner .input-wrapper input.last {
     width: 70px
 }
 
-.signin-div .view .input-wrapper input.last {
+.signin-div .signin-inner .input-wrapper input.last {
     margin-left: 18px
 }
 
-.signin-div .view .signin-misc-wrapper .remember-me {
+.signin-div .signin-inner .signin-helper .remember-me {
     float: left
 }
 
-.signin-div .view .signin-misc-wrapper .remember-me input {
+.signin-div .signin-inner .signin-helper .remember-me input {
     vertical-align: 1px;
     margin-right: 3px
 }
 
-.signin-div .view .signin-misc-wrapper .unable-login {
+.signin-div .signin-inner .signin-helper .unable-login {
     float: right
 }
 
-.signin-div .view .failure {
+.signin-div .signin-inner .failure {
     display: none;
     margin-top: 18px;
     width: 100%;
@@ -120,54 +120,54 @@ object:not([data]) {
     box-shadow: 0 1px 1px rgba(0,0,0,.1) inset,0 1px 0 rgba(255,255,255,.15)
 }
 
-.signin-div .view .failure ul {
+.signin-div .signin-inner .failure ul {
     padding: 10px;
     list-style: none
 }
 
-.signin-div .view .failure li span {
+.signin-div .signin-inner .failure li span {
     color: #9ed8ff;
     cursor: pointer
 }
 
-.signin-div .view .failure li a {
+.signin-div .signin-inner .failure li a {
     color: #9ed8ff;
     text-decoration: underline
 }
 
-.signin-div .view .failure li a.hover {
+.signin-div .signin-inner .failure li a.hover {
     color: #fff
 }
 
-.signin-div .view .failure li+li {
+.signin-div .signin-inner .failure li+li {
     margin-top: 5px
 }
 
 @media (max-width :740px) {
-    .signin-div .view {
+    .signin-div .signin-inner {
         float: none;
         margin: 0 auto;
         width: 248px
     }
 
-    .signin-div .view .input-wrapper,.signin-div .view .button-wrapper,.signin-div .view .signin-misc-wrapper,.signin-div .view .weibo-signup-wrapper {
+    .signin-div .signin-inner .input-wrapper,.signin-div .signin-inner .button-wrapper,.signin-div .signin-inner .signin-helper,.signin-div .signin-inner .weibo-signup-wrapper {
         margin-top: 22px
     }
 
-    .signin-div .view .input-wrapper input {
+    .signin-div .signin-inner .input-wrapper input {
         width: 226px
     }
 
-    .signin-div .view .weibo-signup-wrapper .js-bindwechat {
+    .signin-div .signin-inner .weibo-signup-wrapper .js-bindwechat {
         display: none
     }
 
-    html.ua-wechat .signin-div .view .weibo-signup-wrapper .js-bindwechat {
+    html.ua-wechat .signin-div .signin-inner .weibo-signup-wrapper .js-bindwechat {
         display: inline-block
     }
 }
 
-.sign-button {
+.sign-btn {
     padding: 0;
     font-size: 15px;
     line-height: 33px;
@@ -186,10 +186,10 @@ object:not([data]) {
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
-.sign-button + .sign-button {
+.sign-btn + .sign-btn {
     margin-left: 10px;
 }
-.sign-button:active {
+.sign-btn:active {
     color: #eee;
     border: 1px solid #0971C5;
     background: -webkit-linear-gradient(top,#5dadec,#51a4e6);
@@ -197,7 +197,7 @@ object:not([data]) {
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1),0 1px 0 rgba(255,255,255,.1)
 }
 
-.sign-button.sign-button-white {
+.sign-btn.sign-btn-white {
     color: #484848;
     text-shadow: 0 1px 0 rgba(255,255,255,.8);
     background: #f2f5f7;
@@ -207,7 +207,7 @@ object:not([data]) {
     box-shadow: inset 0 1px 0 rgba(255,255,255,.5),0 1px 1px rgba(50,50,50,.05)
 }
 
-.sign-button.sign-button-white:active {
+.sign-btn.sign-btn-white:active {
     color: #424242;
     background: -webkit-linear-gradient(top,#cddae2,#c9d4dd);
     background: linear-gradient(to bottom,#cddae2,#c9d4dd);
@@ -223,43 +223,43 @@ object:not([data]) {
     display: none
 }
 
-.signin-div .view {
+.signin-div .signin-inner {
     float: none;
     margin: auto;
     width: 300px;
     text-align: left
 }
 
-.signin-div .view .group-inputs {
+.signin-div .signin-inner .input-group {
     padding: 1px 0;
     border: 1px solid #d5d5d5;
     border-radius: 3px
 }
 
-.signin-div .view .input-wrapper {
+.signin-div .signin-inner .input-wrapper {
     position: relative;
     margin: 0;
     overflow: hidden
 }
 
-.signin-div .view .input-wrapper+.input-wrapper {
+.signin-div .signin-inner .input-wrapper+.input-wrapper {
     border-top: 1px solid #e8e8e8
 }
 
-.signin-div .view .input-wrapper input {
+.signin-div .signin-inner .input-wrapper input {
     padding: 1em .8em;
     width: 100%;
     box-sizing: border-box
 }
 
-.signin-div .view .input-wrapper input,.signin-div .view .input-wrapper input:focus {
+.signin-div .signin-inner .input-wrapper input,.signin-div .signin-inner .input-wrapper input:focus {
     border: 0;
     border-radius: 0;
     box-shadow: none;
     background: #fff
 }
 
-.signin-div .view .input-wrapper input:-webkit-autofill {
+.signin-div .signin-inner .input-wrapper input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #fff inset;
     -webkit-text-fill-color: #555
 }
@@ -274,7 +274,7 @@ object:not([data]) {
     display: none
 }
 
-.signin-div .sign-button {
+.signin-div .sign-btn {
     background: #00BC9B;
     box-shadow: none;
     border: 0;
@@ -283,7 +283,7 @@ object:not([data]) {
     color: #fff
 }
 
-.signin-div .sign-button:focus,html.no-touchevents .signin-div .sign-button:hover {
+.signin-div .sign-btn:focus,html.no-touchevents .signin-div .sign-btn:hover {
     background: #00B091
 }
 
@@ -324,7 +324,7 @@ object:not([data]) {
     /*}*/
 /*}*/
 
-.body {
+.inner {
     margin: auto;
     padding: 30px 0 102px;
     width: 300px
@@ -345,7 +345,7 @@ object:not([data]) {
         margin-right: -.25em
     }
 
-    .body {
+    .inner {
         padding: 0;
         min-height: 590px;
         display: inline-block;
