@@ -7,21 +7,20 @@
     <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
-<div class="index-main">
-    <div class="index-main-body">
-        <div class="index-header">
-            <h1 class="logo hide-text"><img style=" margin-left:-25px;" src="../images/res/logo.jpg" alt="多一点"></h1>
-            <h2 class="subtitle">
-                多问一点， 多知一点
-            </h2>
+<div class="main">
+    <div class="body">
+        <div class="header">
+            <h1 class="logo"><img style=" margin-left:-25px;" src="../images/res/logo.jpg" alt="多一点"></h1>
+            <h4 class="description">多问一点， 多知一点</h4>
         </div>
-        <div class="sign-flow clearfix sign-flow-simple">
+
+        <div class="signin-div clearfix">
             <div class="view view-signin" data-za-module="SignInForm" style="display: block;">
                 <form action="/reg/" id="regloginform" method="post">
                     <input type="hidden" name="_xsrf" value="21aa1c8d254df2899b23ab9afbd62a53">
                     <div class="group-inputs">
                         <div class="email input-wrapper">
-                            <input type="text" name="username" placeholder="手机号或邮箱" required="">
+                            <input type="text" name="username" placeholder="手机号、邮箱地址" required="">
                         </div>
                         <div class="input-wrapper">
                             <input type="password" name="password" placeholder="密码" required="">

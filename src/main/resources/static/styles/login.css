@@ -43,7 +43,7 @@ object:not([data]) {
     clear: both
 }
 
-.sign-flow .view {
+.signin-div .view {
     display: none;
     float: right;
     width: 202px;
@@ -51,27 +51,27 @@ object:not([data]) {
     font-size: 14px
 }
 
-.sign-flow .view a:hover {
+.signin-div .view a:hover {
     text-decoration: none
 }
 
-.sign-flow .view.selected {
+.signin-div .view.selected {
     display: block
 }
 
-.sign-flow .view .signin-switch {
+.signin-div .view .signin-switch {
     float: right
 }
 
-.sign-flow .view .input-wrapper,.sign-flow .view .button-wrapper,.sign-flow .view .signin-misc-wrapper,.sign-flow .view .weibo-signup-wrapper {
+.signin-div .view .input-wrapper,.signin-div .view .button-wrapper,.signin-div .view .signin-misc-wrapper,.signin-div .view .weibo-signup-wrapper {
     margin-top: 18px
 }
 
-.sign-flow .view .input-wrapper {
+.signin-div .view .input-wrapper {
     position: relative
 }
 
-.sign-flow .view .input-wrapper input {
+.signin-div .view .input-wrapper input {
     margin: 0;
     padding: 8px 10px;
     width: 180px;
@@ -83,35 +83,35 @@ object:not([data]) {
     box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15)
 }
 
-.sign-flow .view .input-wrapper input:focus {
+.signin-div .view .input-wrapper input:focus {
     background: #fff;
     outline: 0;
     box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 0 10px rgba(255,255,255,.3);
     border: 1px solid #197CC9
 }
 
-.sign-flow .view .input-wrapper input.first,.sign-flow .view .input-wrapper input.last {
+.signin-div .view .input-wrapper input.first,.signin-div .view .input-wrapper input.last {
     width: 70px
 }
 
-.sign-flow .view .input-wrapper input.last {
+.signin-div .view .input-wrapper input.last {
     margin-left: 18px
 }
 
-.sign-flow .view .signin-misc-wrapper .remember-me {
+.signin-div .view .signin-misc-wrapper .remember-me {
     float: left
 }
 
-.sign-flow .view .signin-misc-wrapper .remember-me input {
+.signin-div .view .signin-misc-wrapper .remember-me input {
     vertical-align: 1px;
     margin-right: 3px
 }
 
-.sign-flow .view .signin-misc-wrapper .unable-login {
+.signin-div .view .signin-misc-wrapper .unable-login {
     float: right
 }
 
-.sign-flow .view .failure {
+.signin-div .view .failure {
     display: none;
     margin-top: 18px;
     width: 100%;
@@ -120,49 +120,49 @@ object:not([data]) {
     box-shadow: 0 1px 1px rgba(0,0,0,.1) inset,0 1px 0 rgba(255,255,255,.15)
 }
 
-.sign-flow .view .failure ul {
+.signin-div .view .failure ul {
     padding: 10px;
     list-style: none
 }
 
-.sign-flow .view .failure li span {
+.signin-div .view .failure li span {
     color: #9ed8ff;
     cursor: pointer
 }
 
-.sign-flow .view .failure li a {
+.signin-div .view .failure li a {
     color: #9ed8ff;
     text-decoration: underline
 }
 
-.sign-flow .view .failure li a.hover {
+.signin-div .view .failure li a.hover {
     color: #fff
 }
 
-.sign-flow .view .failure li+li {
+.signin-div .view .failure li+li {
     margin-top: 5px
 }
 
 @media (max-width :740px) {
-    .sign-flow .view {
+    .signin-div .view {
         float: none;
         margin: 0 auto;
         width: 248px
     }
 
-    .sign-flow .view .input-wrapper,.sign-flow .view .button-wrapper,.sign-flow .view .signin-misc-wrapper,.sign-flow .view .weibo-signup-wrapper {
+    .signin-div .view .input-wrapper,.signin-div .view .button-wrapper,.signin-div .view .signin-misc-wrapper,.signin-div .view .weibo-signup-wrapper {
         margin-top: 22px
     }
 
-    .sign-flow .view .input-wrapper input {
+    .signin-div .view .input-wrapper input {
         width: 226px
     }
 
-    .sign-flow .view .weibo-signup-wrapper .js-bindwechat {
+    .signin-div .view .weibo-signup-wrapper .js-bindwechat {
         display: none
     }
 
-    html.ua-wechat .sign-flow .view .weibo-signup-wrapper .js-bindwechat {
+    html.ua-wechat .signin-div .view .weibo-signup-wrapper .js-bindwechat {
         display: inline-block
     }
 }
@@ -215,66 +215,66 @@ object:not([data]) {
     box-shadow: inset 0 1px 2px rgba(0,0,0,.15),0 1px 0 rgba(255,255,255,.1)
 }
 
-.sign-flow {
+.signin-div {
     text-align: center
 }
 
-.sign-flow .title .icon-sign {
+.signin-div .title .icon-sign {
     display: none
 }
 
-.sign-flow .view {
+.signin-div .view {
     float: none;
     margin: auto;
     width: 300px;
     text-align: left
 }
 
-.sign-flow .view .group-inputs {
+.signin-div .view .group-inputs {
     padding: 1px 0;
     border: 1px solid #d5d5d5;
     border-radius: 3px
 }
 
-.sign-flow .view .input-wrapper {
+.signin-div .view .input-wrapper {
     position: relative;
     margin: 0;
     overflow: hidden
 }
 
-.sign-flow .view .input-wrapper+.input-wrapper {
+.signin-div .view .input-wrapper+.input-wrapper {
     border-top: 1px solid #e8e8e8
 }
 
-.sign-flow .view .input-wrapper input {
+.signin-div .view .input-wrapper input {
     padding: 1em .8em;
     width: 100%;
     box-sizing: border-box
 }
 
-.sign-flow .view .input-wrapper input,.sign-flow .view .input-wrapper input:focus {
+.signin-div .view .input-wrapper input,.signin-div .view .input-wrapper input:focus {
     border: 0;
     border-radius: 0;
     box-shadow: none;
     background: #fff
 }
 
-.sign-flow .view .input-wrapper input:-webkit-autofill {
+.signin-div .view .input-wrapper input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #fff inset;
     -webkit-text-fill-color: #555
 }
 
-.sign-flow a {
+.signin-div a {
     color: inherit
 }
-.sign-flow a:hover {
+.signin-div a:hover {
     color: #25bb9b;
 }
-.sign-flow .title {
+.signin-div .title {
     display: none
 }
 
-.sign-flow .sign-button {
+.signin-div .sign-button {
     background: #00BC9B;
     box-shadow: none;
     border: 0;
@@ -283,7 +283,7 @@ object:not([data]) {
     color: #fff
 }
 
-.sign-flow .sign-button:focus,html.no-touchevents .sign-flow .sign-button:hover {
+.signin-div .sign-button:focus,html.no-touchevents .signin-div .sign-button:hover {
     background: #00B091
 }
 
@@ -297,6 +297,13 @@ object:not([data]) {
     height: 47px;
     background: url(../imagse/log.png) no-repeat;
     background-size: contain
+}
+
+.header .description {
+    margin: 30px 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1
 }
 
 /*@media (max-width :740px) {*/
