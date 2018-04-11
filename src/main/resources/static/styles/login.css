@@ -287,234 +287,35 @@ object:not([data]) {
     background: #00B091
 }
 
-.sign-flow label.error {
-    position: absolute;
-    top: 0;
-    right: 8px;
-    padding: 0 8px;
-    line-height: 48px;
-    color: #c33;
-    cursor: text;
-    background: #fff;
-    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#fff 8px);
-    background: linear-gradient(to right,rgba(255,255,255,0),#fff 8px);
-    visibility: hidden;
-    opacity: 0;
-    -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(20px,0);
-    -ms-transform: translate(20px,0);
-    transform: translate(20px,0);
-    -webkit-transition: .25s ease-out;
-    transition: .25s ease-out
-}
-
-.sign-flow label.error.is-visible {
-    visibility: visible;
-    opacity: 1;
-    -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    transform: translate(0,0)
-}
-
-.sign-flow label.error.highlighted {
-    color: #ed707c;
-    -webkit-transition: none;
-    transition: none
-}
-
-.sign-flow label.error .switch-to-login {
-    color: #787878;
-    cursor: pointer
-}
-
-.sign-flow label.error a {
-    text-decoration: none
-}
-
-.sign-flow label.error a,.sign-flow label.error span {
-    color: #787878
-}
-
-.sign-flow .captcha-module .captcha-container {
-    margin: 0
-}
-
-.sign-flow .captcha-module .captcha-container span,.sign-flow .captcha-module .captcha-container a {
-    display: none
-}
-
-.sign-flow .captcha-module .captcha {
-    position: absolute;
-    top: 50%;
-    right: .5em;
-    margin-top: -19px;
-    width: 100px;
-    height: 38px
-}
-
-.sign-flow .captcha-module label.error {
-    right: 105px
-}
-
-.sign-flow .weibo-signup-wrapper .name {
-    vertical-align: middle;
-    margin-right: 20px;
-    color: #787878;
-    cursor: pointer
-}
-
-html.no-touchevents .sign-flow .weibo-signup-wrapper .name:hover {
-    color: #555
-}
-
-.sign-flow .weibo-signup-wrapper a {
-    margin: 0 25px 0 0;
-    opacity: .7;
-    -ms-filter: "alpha(Opacity=70)";
-    -webkit-transition: opacity .15s ease-out;
-    transition: opacity .15s ease-out
-}
-
-html.no-touchevents .sign-flow .weibo-signup-wrapper a:hover {
-    opacity: 1;
-    -ms-filter: "alpha(Opacity=100)"
-}
-
-.sign-flow .sns-buttons {
-    display: inline-block;
-    opacity: 0;
-    -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translateX(-20px);
-    -ms-transform: translateX(-20px);
-    transform: translateX(-20px);
-    -webkit-transition: opacity .25s ease-out,-webkit-transform .25s ease-out;
-    transition: opacity .25s ease-out,-webkit-transform .25s ease-out;
-    transition: opacity .25s ease-out,transform .25s ease-out;
-    transition: opacity .25s ease-out,transform .25s ease-out,-webkit-transform .25s ease-out;
-    visibility: hidden
-}
-
-.sign-flow .sns-buttons.is-visible {
-    opacity: 1;
-    -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none
-}
-
 .header {
     text-align: center
 }
 
 .header .logo {
     margin: 0 auto;
-    width: 46px;
-    height: 46px;
+    width: 47px;
+    height: 47px;
     background: url(../imagse/log.png) no-repeat;
     background-size: contain
 }
 
-@media (max-width :740px) {
-    .header .logo {
-        width: 96px;
-        height: 44.4px
-    }
-}
-
-@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi) {
-    .header .logo {
-        background-image: url(/static/revved/img/index/logo@2x.e4e2b466.png)
-    }
-}
-
-.header .logo.org-logo {
-    width: 178px;
-    height: 41px;
-    background-image: url(/static/revved/img/org/signup/logo.57fac9a5.png)
-}
-
-@media (max-width :740px) {
-    .header .logo.org-logo {
-        width: 142.4px;
-        height: 32.8px
-    }
-}
-
-@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi) {
-    .header .logo.org-logo {
-        background-image: url(/static/revved/img/org/signup/logo@2x.ce86aca0.png)
-    }
-}
-
-.header .description {
-    margin: 30px 0 20px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1
-}
-
-.index-tab-navs {
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-align: center
-}
-
-.index-tab-navs .navs-slider {
-    position: relative;
-    display: inline-block
-}
-
-.index-tab-navs .navs-slider .navs-slider-bar {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 0 .8em;
-    width: 2.4em;
-    height: 2px;
-    background: #0f88eb;
-    -webkit-transition: left .15s ease-in;
-    transition: left .15s ease-in
-}
-
-.index-tab-navs .navs-slider[data-active-index="1"] .navs-slider-bar {
-    left: 4em
-}
-
-.index-tab-navs a {
-    float: left;
-    width: 4em;
-    line-height: 35px;
-    opacity: .7;
-    -ms-filter: "alpha(Opacity=70)";
-    -webkit-transition: opacity .15s,color .15s;
-    transition: opacity .15s,color .15s
-}
-
-html.no-touchevents .index-tab-navs a:hover {
-    opacity: 1;
-    -ms-filter: "alpha(Opacity=100)";
-    text-decoration: none
-}
-
-.index-tab-navs a.active {
-    opacity: 1;
-    -ms-filter: "alpha(Opacity=100)";
-    color: #0f88eb
-}
-
-
+/*@media (max-width :740px) {*/
+    /*.header .logo {*/
+        /*width: 96px;*/
+        /*height: 44.4px*/
+    /*}*/
+/*}*/
 
 .main {
     min-height: 100%;
     margin-bottom: -42px
 }
 
-@media (max-width :740px) {
-    .main {
-        margin-bottom: -102px
-    }
-}
+/*@media (max-width :740px) {*/
+    /*.main {*/
+        /*margin-bottom: -102px*/
+    /*}*/
+/*}*/
 
 .body {
     margin: auto;
