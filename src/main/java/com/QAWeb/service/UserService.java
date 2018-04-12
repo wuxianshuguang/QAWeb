@@ -22,6 +22,10 @@ public class UserService {
     @Autowired
     private LoginTicketDAO loginTicketDAO;
 
+    public User selectByName(String name) {
+        return userDAO.selectByName(name);
+    }
+
     public Map<String, Object> register(String username, String password) {
         Map<String, Object> map = new HashMap<String, Object>();
         if (StringUtils.isBlank(username)) {
@@ -105,4 +109,6 @@ public class UserService {
     public void logout(String ticket) {
         loginTicketDAO.updateStatus(ticket, 1);
     }
+
+
 }
