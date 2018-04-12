@@ -492,7 +492,7 @@ address,sup {
     background-position: -41px -5px
 }
 
-.zg-section {
+.div-section {
     margin: 0 0 10px;
     display: block
 }
@@ -502,13 +502,13 @@ address,sup {
     color: #666
 }
 
-.zg-section-title {
+.div-section-title {
     padding: 0 0 3px;
     margin: 0 0 10px;
     border-bottom: solid 1px #ddd
 }
 
-.zg-section-title.zg-section-title-wide {
+.div-section-title.div-section-title-wide {
     padding: 0 0 10px
 }
 
@@ -615,7 +615,7 @@ address,sup {
     font-weight: 400
 }
 
-.zg-right {
+.float-right {
     float: right
 }
 
@@ -676,7 +676,7 @@ address,sup {
     color: #DDD
 }
 
-.zg-gray-normal,.zg-link-gray-normal,.zg-link-gray {
+.zg-gray-normal,.link-gray-normal,.zg-link-gray {
     color: #999;
     font-weight: 400
 }
@@ -685,7 +685,7 @@ address,sup {
     font-size: 12px
 }
 
-html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal:hover {
+html.no-touchevents .zg-link-gray:hover,html.no-touchevents .link-gray-normal:hover {
     color: #25bb9b
 }
 
@@ -1062,43 +1062,43 @@ html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal
     border-radius: 2px
 }
 
-.zg-wrap {
+.base-page {
     width: 960px;
     margin: 0 auto;
     clear: both
 }
 
-.zu-main {
+.main-body {
     min-height: 340px;
     padding: 25px 0 50px;
     position: relative;
     z-index: 2
 }
 
-.zu-main.no-sidebar .zu-main-content {
+.main-body.no-sidebar .main-content {
     float: none
 }
 
-.zu-main.no-sidebar .zu-main-content-inner {
+.main-body.no-sidebar .main-content-inner {
     margin: 0
 }
 
 @media (max-width:959px) {
-    .zu-main.no-sidebar .zu-main-content-inner {
+    .main-body.no-sidebar .main-content-inner {
         margin: 0 10px
     }
 }
 
-.zu-main-content {
+.main-content {
     float: left;
     width: 100%
 }
 
-.zu-main-content-inner {
+.main-content-inner {
     position: relative;
 }
 
-.zu-main-sidebar {
+.main-body-sidebar {
     position: relative;
     float: left;
     margin: 0 0 0 -270px;
@@ -1106,34 +1106,34 @@ html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal
 }
 
 @media (max-width:767px) {
-    .zg-wrap {
+    .base-page {
         width: auto;
         padding-left: 6px;
         padding-right: 6px
     }
 
-    .zu-main-content-inner {
+    .main-content-inner {
         margin: 0
     }
 
-    .zu-main-content {
+    .main-content {
         float: none
     }
 
-    .zu-main-sidebar {
+    .main-body-sidebar {
         float: none;
         margin: 0
     }
 }
 
 @media (min-width:768px) and (max-width:959px) {
-    .zg-wrap {
+    .base-page {
         width: auto;
         padding-left: 6px;
         padding-right: 6px
     }
 
-    .zu-main-content-inner {
+    .main-content-inner {
         margin: 0 300px 0 0
     }
 }
@@ -1172,25 +1172,25 @@ html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal
     float: left
 }
 
-.zu-main-sidebar .zh-footer {
+.main-body-sidebar .zh-footer {
     margin-top: 10px;
     text-align: left
 }
 
-.zu-main-sidebar .zh-footer .content {
+.main-body-sidebar .zh-footer .content {
     padding: 10px 0;
     width: auto;
     border-top-color: #eee
 }
 
-.zu-main-sidebar .zh-footer li:nth-child(5):before {
+.main-body-sidebar .zh-footer li:nth-child(5):before {
     content: '';
     margin: 0;
     padding: 0;
     display: block
 }
 
-.zu-main-sidebar .zh-footer .copy {
+.main-body-sidebar .zh-footer .copy {
     margin-left: 1px;
     float: none
 }
@@ -3825,7 +3825,7 @@ html.no-touchevents .Guide-TopicsItem:hover .Guide-TopicsMask {
     min-height: 55px
 }
 
-#zh-home-list-title {
+#home-list-title {
     font-size: 14px;
     color: #666;
     font-weight: 700
@@ -4026,16 +4026,16 @@ html.touchevents .x-m,html.touchevents .x-e {
     margin: 0
 }
 
-.zu-main-nav-current>.zg-title16 {
+.main-body-nav-current>.zg-title16 {
     color: #eee
 }
 
-.zu-main-nav-a>.zg-title16 {
+.main-body-nav-a>.zg-title16 {
     padding: 13px 0 0;
     line-height: 20px
 }
 
-.zu-main-feed-con {
+.question-list {
     position: relative;
     border-top: 1px solid #ccc
 }
@@ -4104,7 +4104,7 @@ html.touchevents .x-m,html.touchevents .x-e {
     background: #ccc!important
 }
 
-.zg-section-big {
+.div-section-big {
     margin: 0 0 15px
 }
 
@@ -4504,7 +4504,7 @@ html.no-touchevents .zm-item-meta>.zg-link-gray:hover {
     width: 398px
 }
 
-.zu-question-related-redirect-question>.zg-section {
+.zu-question-related-redirect-question>.div-section {
     margin: 0 0 5px
 }
 
@@ -4861,7 +4861,7 @@ a.zg-star:hover {
     position: relative
 }
 
-.zm-noti-cleaner-setting {
+.list-setting {
     font-weight: 400;
     font-size: 13px
 }
@@ -5711,7 +5711,7 @@ html.no-touchevents .actioncard-button:hover {
     padding-top: 6px
 }
 
-a.zu-main-feed-fresh-button {
+a.fresh-question {
     display: block;
     background-color: #eff6fa;
     text-align: center;
@@ -5725,7 +5725,7 @@ a.zu-main-feed-fresh-button {
     border: 1px solid #cce1ef
 }
 
-a.zu-main-feed-fresh-button:hover,a.zu-main-feed-fresh-button:active {
+a.fresh-question:hover,a.fresh-question:active {
     background: #daedf5;
     border: 1px solid #c7dff0;
     color: #666
@@ -6362,12 +6362,12 @@ html.no-touchevents .feed-source a:hover {
     cursor: pointer
 }
 
-.zh-general-list.topstory .feed-source .time {
+.base-list.topstory .feed-source .time {
     margin-left: 0;
     float: none
 }
 
-.zh-general-list.topstory .feed-meta .ignore {
+.base-list.topstory .feed-meta .ignore {
     top: 11px
 }
 
@@ -6622,17 +6622,17 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     margin-left: -1px
 }
 
-.zu-main.with-indention-votebar .zu-main-content-inner {
+.main-body.with-indention-votebar .main-content-inner {
     margin-left: 48px
 }
 
 @media (max-width:480px) {
-    .zu-main.with-indention-votebar .zu-main-content-inner {
+    .main-body.with-indention-votebar .main-content-inner {
         margin: 0 10px
     }
 }
 
-.zu-main.with-indention-votebar .zu-main-content-inner .zm-item-answer {
+.main-body.with-indention-votebar .main-content-inner .zm-item-answer {
     margin-left: 0
 }
 
@@ -7170,7 +7170,7 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     height: 50px
 }
 
-.zu-main-sidebar .topic-recommend {
+.main-body-sidebar .topic-recommend {
     border-radius: 0;
     border-width: 1px 0 0;
     padding-bottom: 10px;
@@ -7178,44 +7178,44 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     margin-top: 25px
 }
 
-.zu-main-sidebar .topic-recommend .topics-pager {
+.main-body-sidebar .topic-recommend .topics-pager {
     float: right
 }
 
-.zu-main-sidebar .topic-recommend .topic-recommend-head {
+.main-body-sidebar .topic-recommend .topic-recommend-head {
     border-bottom: 0;
     padding: 15px 0 9px
 }
 
-.zu-main-sidebar .topic-recommend .topic-recommend-list {
+.main-body-sidebar .topic-recommend .topic-recommend-list {
     padding: 0
 }
 
-.zu-main-sidebar .topic-recommend .topic-item {
+.main-body-sidebar .topic-recommend .topic-item {
     padding: 0 0 10px;
     border-top: 0
 }
 
-.zu-main-sidebar .topic-recommend .topic-item .topic-avatar,.zu-main-sidebar .topic-recommend .topic-item .Avatar {
+.main-body-sidebar .topic-recommend .topic-item .topic-avatar,.main-body-sidebar .topic-recommend .topic-item .Avatar {
     width: 40px;
     height: 40px;
     margin-top: 0
 }
 
-.zu-main-sidebar .topic-recommend .topic-item-content {
+.main-body-sidebar .topic-recommend .topic-item-content {
     margin: 0 0 0 56px;
     line-height: 40px;
     position: relative
 }
 
-.zu-main-sidebar .topic-recommend .topic-item-content h3 {
+.main-body-sidebar .topic-recommend .topic-item-content h3 {
     margin: 0 60px 0 0;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
 }
 
-.zu-main-sidebar .topic-recommend .topic-item-content a[data-follow] {
+.main-body-sidebar .topic-recommend .topic-item-content a[data-follow] {
     position: absolute;
     right: 0;
     top: 0
@@ -9695,7 +9695,7 @@ a>.invisible {
     box-shadow: 0 1px 2px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.15)*/
 }
 
-.zu-top .zg-wrap {
+.zu-top .base-page {
     position: relative;
     height: inherit
 }
@@ -10327,7 +10327,7 @@ html.no-touchevents .zu-top-nav-userinfo:hover {
     }
 }
 
-.zu-main-sidebar h3,.zm-side-section h3,.zu-main-sidebar h2,.zm-side-section h2 {
+.main-body-sidebar h3,.zm-side-section h3,.main-body-sidebar h2,.zm-side-section h2 {
     margin-bottom: 10px
 }
 
@@ -11321,7 +11321,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
     display: none
 }
 
-.zh-add-question-form .zg-section-big,.zh-add-question-form #zh-question-suggest-autocomplete-container,.zh-add-question-form #zh-question-suggest-autocomplete-container2 {
+.zh-add-question-form .div-section-big,.zh-add-question-form #zh-question-suggest-autocomplete-container,.zh-add-question-form #zh-question-suggest-autocomplete-container2 {
     position: relative
 }
 

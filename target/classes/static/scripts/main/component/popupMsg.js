@@ -14,13 +14,13 @@ var oPopupAdd = new PopupAdd({
     Base.mix(PopupMsg, Component, {
         _tpl: [
             '<div class="zh-add-question-form" style="margin:0;">',
-                '<div class="zg-section-big clearfix">',
+                '<div class="div-section-big clearfix">',
                     '<div class="add-question-section-title">发给：</div>',
                     '<div class="zg-form-text-input add-question-title-form" style="position: relative;">',
                         '<input type="text" class="js-name zg-editor-input zu-seamless-input-origin-element" placeholder="姓名" style="height:22px;min-height:auto;"></textarea>',
                     '</div>',
                 '</div>',
-                '<div class="zg-section-big">',
+                '<div class="div-section-big">',
                     '<div class="add-question-section-title">内容：</div>',
                     '<div id="zh-question-suggest-detail-container" class="zm-editable-status-editing">',
                         '<div class="zm-editable-editor-wrap no-toolbar">',
