@@ -13150,10 +13150,8 @@ html.no-touchevents .tag-list .remove-button:hover {
     border:1px solid #999;
     padding:4px 4px 0
 }
-.zu-seamless-input-origin-element {
-    overflow:hidden
-}
-.input-editor {
+
+.pop-input-editor {
     width:100%;
     font-weight:400;
     min-height:66px;

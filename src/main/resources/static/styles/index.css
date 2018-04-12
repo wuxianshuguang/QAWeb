@@ -15419,24 +15419,6 @@ html.no-touchevents .zm-noti7-content-item:hover .zg-follow,html.no-touchevents 
     border-radius: 0 0 4px 4px
 }
 
-.goog-menu.zh-answer-more-actions {
-    padding: 0
-}
-
-.goog-menu.zh-answer-more-actions .goog-menuitem {
-    display: block;
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-    width: 86px;
-    text-shadow: 0 1px 0 rgba(255,255,255,.8)
-}
-
-.goog-menu.zh-answer-more-actions .goog-menuseparator {
-    border-top: 1px solid #eee;
-    margin: 0
-}
-
 .zg-icon-ellipsis-mobi {
     background-position: -282px -88px;
     vertical-align: -1px
@@ -15549,7 +15531,6 @@ html.no-touchevents .zm-votebar .up:hover,html.no-touchevents .zm-votebar .down:
     border: 0;
     cursor: pointer;
     background: #eff6fa;
-    font-weight: 700;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
@@ -15705,13 +15686,13 @@ html.no-touchevents .question-vote-count:hover {
 }
 
 .tag-list>li.canedit .tag-link {
-    padding-right: 35px
+    padding-right: 33px
 }
 
 .tag-list .tag-link {
     float: left;
     display: inline-block;
-    margin: 0 5px 5px 0;
+    margin: 0 5px;
     padding: 1px 10px 0;
     border-radius: 30px;
     background: #eff6fa;
@@ -15736,20 +15717,11 @@ html.no-touchevents .question-vote-count:hover {
     background-position: -264px -103px
 }
 
-html.no-touchevents .tag-list .remove-button:hover {
+.tag-list .remove-button:hover {
     background-color: #25bb9b
 }
 
-.zg-editor-simple-wrap {
-    border: 1px solid #999;
-    padding: 4px 4px 0
-}
-
-.zu-seamless-input-origin-element {
-    overflow: hidden
-}
-
-.input-editor {
+.pop-input-editor {
     width: 100%;
     font-weight: 400;
     min-height: 66px;

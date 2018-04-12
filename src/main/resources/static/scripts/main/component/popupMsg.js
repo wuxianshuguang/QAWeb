@@ -17,7 +17,7 @@ var oPopupAdd = new PopupAdd({
                 '<div class="div-section-big clearfix">',
                     '<div class="add-question-section-title">发给：</div>',
                     '<div class="zg-form-text-input add-question-title-form" style="position: relative;">',
-                        '<input type="text" class="js-name input-editor zu-seamless-input-origin-element" placeholder="姓名" style="height:22px;min-height:auto;"></textarea>',
+                        '<input type="text" class="js-name pop-input-editor  " placeholder="姓名" style="height:22px;min-height:auto;"></textarea>',
                     '</div>',
                 '</div>',
                 '<div class="div-section-big">',
