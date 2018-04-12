@@ -13153,7 +13153,7 @@ html.no-touchevents .tag-list .remove-button:hover {
 .zu-seamless-input-origin-element {
     overflow:hidden
 }
-.zg-editor-input {
+.input-editor {
     width:100%;
     font-weight:400;
     min-height:66px;
