@@ -3160,7 +3160,7 @@ html.touchevents .x-m,html.touchevents .x-e {
     display:block;
     margin:0
 }
-.page-header-nav-live .x-m {
+.header-nav-live .x-m {
     margin:2px 0 0 3px
 }
 .zu-home-noti-item:hover>.x-m {
@@ -8219,7 +8219,7 @@ html.no-touchevents .mobile-top-nav-popup .header-dropdown a:hover {
 .open .header-dropdown,html.no-touchevents .user-profile:hover .header-dropdown {
     display:block
 }
-.user-profile .page-header-nav-userinfo {
+.user-profile .header-nav-userinfo {
     position:relative;
     height:45px;
     line-height:45px;
@@ -8233,15 +8233,15 @@ html.no-touchevents .mobile-top-nav-popup .header-dropdown a:hover {
     text-overflow:ellipsis;
     overflow:hidden
 }
-.page-header-nav-userinfo.selected,html.no-touchevents .user-profile:hover .page-header-nav-userinfo {
+.header-nav-userinfo.selected,html.no-touchevents .user-profile:hover .header-nav-userinfo {
     height:46px!important;
     background:#31363D;
     box-shadow:inset 0 0 2px rgba(0,0,0,.12)
 }
-html.no-touchevents .page-header-nav-userinfo:hover {
+html.no-touchevents .header-nav-userinfo:hover {
     background-color:#046dd6
 }
-.page-header-nav-userinfo .Avatar {
+.header-nav-userinfo .Avatar {
     position:absolute;
     top:9px;
     left:10px;
@@ -8267,11 +8267,11 @@ html.no-touchevents .page-header-nav-userinfo:hover {
 .zg-icon-dd-logout {
     background-position:-6px -87px
 }
-.page-header-nav {
+.header-nav {
     float:left;
     position:relative
 }
-.page-header-nav-live {
+.header-nav-live {
     position:absolute;
     left:108px;
     top:45px;
@@ -8280,27 +8280,27 @@ html.no-touchevents .page-header-nav-userinfo:hover {
     background:#fff;
     outline:0
 }
-.page-header-nav-ul {
+.header-nav-ul {
     padding:0;
     margin:0 0 0 18px
 }
-.page-header-nav-li {
+.header-nav-li {
     position:relative;
     float:left;
     margin:0;
     list-style:none
 }
-.page-header-nav-li.current {
+.header-nav-li.current {
     background:#31363d;
 }
-.page-header-nav-link,.page-header-nav-link:visited,.page-header-nav-link:active {
+.header-nav-link,.header-nav-link:visited,.header-nav-link:active {
     color:#eee
 }
-.page-header-nav-link:hover {
+.header-nav-link:hover {
     color:#fff;
     text-decoration:none
 }
-.page-header-nav-link {
+.header-nav-link {
     width:54px;
     height:45px;
     line-height:45px;
@@ -8311,7 +8311,7 @@ html.no-touchevents .page-header-nav-userinfo:hover {
     font-size:14px
 }
 @media (max-width:959px) {
-    .page-header-nav-link {
+    .header-nav-link {
     width:auto;
     padding:0 10px
 }
@@ -8332,22 +8332,22 @@ html.no-touchevents .page-header-nav-userinfo:hover {
     text-align:center;
     text-decoration:none
 }
-.page-header-nav-count,.page-header-nav-userinfo .page-header-nav-pm-count {
+.header-nav-count,.header-nav-userinfo .header-nav-pm-count {
     z-index:12;
     top:5px;
     position:absolute
 }
-.page-header-nav-count {
+.header-nav-count {
     left:31px
 }
-.page-header-nav-userinfo .page-header-nav-pm-count {
+.header-nav-userinfo .header-nav-pm-count {
     left:29px
 }
-.user-profile .header-dropdown .page-header-nav-pm-count {
+.user-profile .header-dropdown .header-nav-pm-count {
     vertical-align:1px;
     margin-left:8px
 }
-.page-header-nav-count:hover {
+.header-nav-count:hover {
     text-decoration:none
 }
 .zg-black-tip {
@@ -11753,11 +11753,11 @@ html.no-touchevents #zu-distraction-free-editor .back:hover,html.no-touchevents 
 .zh-profile-card .lower .meta .item:last-child {
     border-right:0 none
 }
-.page-header-nav-live {
+.header-nav-live {
     border-radius:5px;
     border:solid 1px #bbb
 }
-.page-header-nav-live-inner {
+.header-nav-live-inner {
     padding:10px;
     border-radius:5px;
     border:solid 3px #f4f4f4;
@@ -12583,7 +12583,7 @@ img[eeimg="2"] {
     position:absolute;
     top:125px
 }
-.zu-noti7-popup .page-header-nav-live-inner {
+.zu-noti7-popup .header-nav-live-inner {
     padding:0;
     border:0;
     box-shadow:0 1px 4px rgba(0,0,0,.3);
@@ -12592,7 +12592,7 @@ img[eeimg="2"] {
 .zu-noti7-popup .zu-home-noti-inner {
     margin:0
 }
-.zu-noti7-popup.page-header-nav-live {
+.zu-noti7-popup.header-nav-live {
     width:315px;
     left:52px;
     top:48px;
