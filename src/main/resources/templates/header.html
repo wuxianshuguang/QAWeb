@@ -2,37 +2,42 @@
 <html lang="zh-CN" class="js is-AppPromotionBarVisible cssanimations csstransforms csstransitions flexbox no-touchevents no-mobile" style="">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script async="" src="../scripts/ga.js"></script>
+    <!--<script async="" src="../scripts/ga.js"></script>-->
     <title>多一点</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="../styles/index.css">
     <style>
-    .zm-item-answer-author-info a.collapse {margin-top: 0}
+    .question-owner-profile a.collapse {margin-top: 0}
     </style>
 
 </head>
-<body class="zhi ">
-<div role="navigation" class="zu-top">
-    <div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
-
-        <a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo"></a>
-
-        <div class="top-nav-profile">
+<body class="qa">
+<div class="page-header">
+    <div class="base-page modal-shifting clearfix" id="zh-top-inner">
+        <!-- logo -->
+        <a href="/" class="page-header-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo"></a>
+        <!-- -->
+        <div class="user-profile">
+            <!-- 未登录 -->
             #if(!$user)
-            <ul class="topnav-noauth clearfix">
+            <ul class="not-login-profile clearfix">
                 <li>
                     <a href="/reglogin">注册/登录</a>
                 </li>
             </ul>
+
+            <!-- 已登录 -->
             #else
-            <a href="/user/$!{user.id}" class="zu-top-nav-userinfo " id=":0" role="button" aria-haspopup="true" aria-activedescendant="">
+            <!-- 用户个人信息 -->
+            <a href="/user/$!{user.id}" class="header-nav-userinfo " id=":0" role="button" aria-haspopup="true" aria-activedescendant="">
                 <span class="name">$!{user.name}</span>
                 <img class="Avatar" src="$!{user.headUrl}" alt="$!{user.name}">
-                    <span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count" style="visibility:hidden" data-count="0">
+                    <span id="zh-top-nav-new-pm" class="zg-noti-number header-nav-pm-count" style="visibility:hidden" data-count="0">
                     </span>
             </a>
-            <ul class="top-nav-dropdown" id="top-nav-profile-dropdown" aria-labelledby=":0">
+            <!-- -->
+            <ul class="header-dropdown" id="user-profile-dropdown" aria-labelledby=":0">
                 <li>
                     <a href="/user/$!{user.id}" tabindex="-1" id=":1">
                         <i class="zg-icon zg-icon-dd-home"></i>我的主页
@@ -41,52 +46,52 @@
                 <li>
                     <a href="/msg/list" tabindex="-1" id=":2">
                         <i class="zg-icon zg-icon-dd-pm"></i>私信
-                    <span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number" style="visibility:hidden" data-count="0">
+                    <span id="zh-top-nav-pm-count" class="header-nav-pm-count zg-noti-number" style="visibility:hidden" data-count="0">
                     </span>
                     </a>
                 </li>
                 <li>
                     <a href="/logout" tabindex="-1" id=":4">
-                        <i class="zg-icon zg-icon-dd-logout"></i>退出
+                        <i class="zg-icon zg-icon-dd-logout"></i>注销
                     </a>
                 </li>
             </ul>
             #end
         </div>
 
-
-        <button class="zu-top-add-question" id="zu-top-add-question">提问</button>
-        <div role="search" id="zh-top-search" class="zu-top-search">
-            <form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+        <!-- 提问按钮 -->
+        <button class="page-header-ask-question" id="page-header-ask-question">提问</button>
+        <div id="question-search" class="page-header-search">
+            <form class="search-form" id="question-search-form" action="/search" method="GET">
                 <input type="hidden" name="type" value="content">
-                <label for="q" class="hide-text">搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索你感兴趣的内容..." role="combobox" aria-autocomplete="list">
-                <button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+                <label for="q" class="hide-text">搜索</label><input type="text" class="page-header-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索你感兴趣的内容..." aria-autocomplete="list">
+                <button type="submit" class="search-btn"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
             </form>
         </div>
-        <div id="zg-top-nav" class="zu-top-nav">
-            <ul class="zu-top-nav-ul zg-clear">
-                <li class="zu-top-nav-li current" id="zh-top-nav-home">
-                    <a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+        <div id="header-nav" class="header-nav">
+            <ul class="header-nav-ul qa-clear">
+                <li class="header-nav-li current" id="nav-home">
+                    <a class="header-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
                 </li>
-                <li class="zu-top-nav-li " id="zh-top-nav-explore">
-                    <a class="zu-top-nav-link" href="/explore">发现</a>
+                <li class="header-nav-li " id="zh-top-nav-explore">
+                    <a class="header-nav-link" href="/explore">发现</a>
                 </li>
-                <li class="top-nav-noti zu-top-nav-li ">
-                    <a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息<span id="zh-top-nav-count" class="zu-top-nav-count zg-noti-number" style="display: none;">0</span></a>
+                <li class="top-nav-noti header-nav-li">
+                    <a class="header-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息<span id="zh-top-nav-count" class="header-nav-count zg-noti-number" style="display: none;">0</span></a>
                 </li>
             </ul>
-            <div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
-                <div class="zu-top-nav-live-inner zg-r5px">
-                    <div class="zu-top-live-icon">&nbsp;</div>
+            <div class="header-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+                <div class="header-nav-live-inner zg-r5px">
+                    <div class="page-header-live-icon">&nbsp;</div>
                     <div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
-                        <div class="zm-noti7-popup-tab-container clearfix" tabindex="0" role="tablist">
-                            <button class="zm-noti7-popup-tab-item message" role="tab">
+                        <div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+                            <button class="zm-noti7-popup-tab-item message">
                                 <span class="icon">消息</span>
                             </button>
-                            <button class="zm-noti7-popup-tab-item user" role="tab">
+                            <button class="zm-noti7-popup-tab-item user">
                                 <span class="icon">用户</span>
                             </button>
-                            <button class="zm-noti7-popup-tab-item thanks" role="tab">
+                            <button class="zm-noti7-popup-tab-item thanks">
                                 <span class="icon">赞同和感谢</span>
                             </button>
                         </div>
@@ -130,7 +135,7 @@
 
                     <div class="zm-noti7-frame-border bottom"></div>
                     <div class="zm-noti7-popup-footer">
-                        <a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部</a>
+                        <a href="/notifications" class="zm-noti7-popup-footer-all float-right">查看全部</a>
                         <a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置"><i class="zg-icon zg-icon-settings"></i></a>
                     </div>
                 </div>

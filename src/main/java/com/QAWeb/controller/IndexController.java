@@ -1,6 +1,6 @@
 package com.QAWeb.controller;
 
-import com.QAWeb.aspect.LogAspect;
+
 import com.QAWeb.model.User;
 import com.QAWeb.service.WendaService;
 import org.slf4j.Logger;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 import java.util.*;
 
 /**
- * Created by QAWeb on 2016/7/10.
+ * Created by nowcoder on 2016/7/10.
  */
 //@Controller
 public class IndexController {
@@ -84,7 +84,7 @@ public class IndexController {
         sb.append(request.getRequestURI() + "<br>");
 
         response.addHeader("nowcoderId", "hello");
-        response.addCookie(new Cookie("username", "QAWeb"));
+        response.addCookie(new Cookie("username", "nowcoder"));
 
         return sb.toString();
     }

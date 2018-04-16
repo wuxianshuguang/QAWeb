@@ -8,33 +8,32 @@
 </head>
 <body>
 <div class="main">
-    <div class="body">
+    <div class="inner">
         <div class="header">
-            <h1 class="logo"><img style=" margin-left:-25px;" src="../images/res/logo.jpg" alt="多一点"></h1>
-            <h2 class="description">
-                多问一点， 多知一点
-            </h2>
+            <h1 class="logo-wrapper"><img class="logo" src="../images/res/logo.jpg" alt="多一点"></h1>
+            <h4 class="description">多问一点， 多知一点</h4>
         </div>
-        <div class="sign-flow clearfix sign-flow-simple">
-            <div class="view view-signin" data-za-module="SignInForm" style="display: block;">
+
+        <div class="signin-div clearfix">
+            <div class="signin-inner" data-za-module="SignInForm" style="display: block;">
                 <form action="/reg/" id="regloginform" method="post">
                     <input type="hidden" name="_xsrf" value="21aa1c8d254df2899b23ab9afbd62a53">
-                    <div class="group-inputs">
-                        <div class="email input-wrapper">
-                            <input type="text" name="username" placeholder="手机号或邮箱" required="">
+                    <div class="input-group">
+                        <div class="input-wrapper email">
+                            <input type="text" name="username" required="" placeholder="手机号、邮箱地址" />
                         </div>
                         <div class="input-wrapper">
-                            <input type="password" name="password" placeholder="密码" required="">
+                            <input type="password" name="password" required="" placeholder="密码" />
                         </div>
                     </div>
                     <input type="hidden" name="next" id="next" value="$!{next}"/>
                     <div class="button-wrapper command clearfix">
-                        <button class="sign-button submit" type="submit" onclick="form=document.getElementById('regloginform');form.action='/login/'">登录</button>
-                        <button class="sign-button submit" type="submit" onclick="form=document.getElementById('regloginform');form.action='/reg/'">注册</button>
+                        <button class="sign-btn submit" type="submit" onclick="form=document.getElementById('regloginform');form.action='/login/'">登录</button>
+                        <button class="sign-btn submit" type="submit" onclick="form=document.getElementById('regloginform');form.action='/reg/'">注册</button>
                     </div>
-                    <div class="signin-misc-wrapper clearfix">
+                    <div class="signin-helper clearfix">
                         <label class="remember-me">
-                            <input type="checkbox" name="rememberme" checked="" value="true"> 记住我
+                            <input type="checkbox" name="rememberme" checked="" value="true" /> 记住我
                         </label>
                         <a class="unable-login" href="#">无法登录?</a>
                     </div>

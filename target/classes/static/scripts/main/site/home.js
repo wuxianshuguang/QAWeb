@@ -5,7 +5,7 @@
     Base.ready({
         initialize: fInitialize,
         binds: {
-            'click #zu-top-add-question': fClickAdd,
+            'click #page-header-ask-question': fClickAdd,
             'click #zh-top-nav-count-wrap': fClickMsg
         }
     });

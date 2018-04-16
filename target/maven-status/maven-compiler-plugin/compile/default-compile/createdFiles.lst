@@ -2,13 +2,17 @@ com\QAWeb\controller\IndexController.class
 com\QAWeb\dao\CommentDAO.class
 com\QAWeb\model\ViewObject.class
 com\QAWeb\model\Comment.class
+com\QAWeb\service\MessageService.class
 com\QAWeb\util\WendaUtil.class
 com\QAWeb\interceptor\PassportInterceptor.class
 com\QAWeb\model\EntityType.class
 com\QAWeb\dao\QuestionDAO.class
+com\QAWeb\model\Message.class
 com\QAWeb\controller\SettingController.class
 com\QAWeb\interceptor\LoginRequredInterceptor.class
+com\QAWeb\dao\MessageDAO.class
 com\QAWeb\model\Question.class
+com\QAWeb\controller\MessageController.class
 com\QAWeb\dao\UserDAO.class
 com\QAWeb\model\HostHolder.class
 com\QAWeb\service\WendaService.class
@@ -16,6 +20,7 @@ com\QAWeb\service\SensitiveService$TrieNode.class
 com\QAWeb\dao\LoginTicketDAO.class
 com\QAWeb\model\User.class
 com\QAWeb\service\SensitiveService.class
+com\QAWeb\controller\CommentController.class
 com\QAWeb\controller\QuestionController.class
 com\QAWeb\interceptor\LoginRequiredInterceptor.class
 com\QAWeb\controller\HomeController.class
